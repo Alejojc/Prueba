@@ -22,7 +22,7 @@ namespace Prueba
         private void materialButton1_Click(object sender, EventArgs e)
         {
             ExcelClass ExcObj = new ExcelClass();
-            ExcObj.ExcelAbrir(@"C:\Users\AJIMENEZCO\Pictures\Prueba.xlsx", 1,true);
+            ExcObj.ExcelAbrir(@"C:\Users\USER\Pictures\Prueba.xlsx", 1,true);
             ExcObj.ExcelCantidadFilas();
             int Rows = ExcObj.Row;
             for (int i =1; i<=Rows;i++)
